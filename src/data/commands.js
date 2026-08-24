@@ -1,0 +1,16 @@
+export const COMMANDS = [
+    "help",
+    "about",
+    "whoami",
+    "services",
+    "skills",
+    "projects",
+    "contact",
+    "ls",
+    "cat",
+    "clear",
+    "history",
+    "sudo",
+    "exit",
+    "date",
+];
