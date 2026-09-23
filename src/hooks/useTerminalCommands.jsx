@@ -103,10 +103,9 @@ export function useTerminalCommands(push, setLines, setShake) {
           { text: `email      ${PROFILE.email}`, href: `mailto:${PROFILE.email}` },
           { text: `github     ${PROFILE.github}`, href: PROFILE.github },
           { text: `linkedin   ${PROFILE.linkedin}`, href: PROFILE.linkedin },
-          { text: `instagram  ${PROFILE.instagram}`, href: PROFILE.instagram },
           { text: `whatsapp   ${PROFILE.whatsapp}`, href: PROFILE.whatsapp },
           { text: `lokasi     ${PROFILE.location}` },
-          { text: "telepon    081-214-585-744 | 0821-2659-1570" },
+          { text: "telepon    081-214-585-744" },
         ]);
         break;
 
@@ -154,10 +153,9 @@ export function useTerminalCommands(push, setLines, setShake) {
             { text: `email      ${PROFILE.email}`, href: `mailto:${PROFILE.email}` },
             { text: `github     ${PROFILE.github}`, href: PROFILE.github },
             { text: `linkedin   ${PROFILE.linkedin}`, href: PROFILE.linkedin },
-            { text: `instagram  ${PROFILE.instagram}`, href: PROFILE.instagram },
             { text: `whatsapp   ${PROFILE.whatsapp}`, href: PROFILE.whatsapp },
             { text: `lokasi     ${PROFILE.location}` },
-            { text: "telepon    081-214-585-744 | 0821-2659-1570" },
+            { text: "telepon    081-214-585-744" },
           ]);
         } else if (file.startsWith("projects/")) {
           const project = findProject(PROJECTS, file);
@@ -172,7 +170,7 @@ export function useTerminalCommands(push, setLines, setShake) {
               { text: `peran     ${project.role}` },
               { text: `stack     ${project.stack}` },
               { text: "" },
-              { text: project.desc },
+              { text: project.link },
               ...(project.url ? [{ text: `website   ${project.url}`, href: project.url }] : []),
             ]);
           }

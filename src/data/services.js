@@ -1,17 +1,37 @@
 export const SERVICES = [
     {
-        name: "Web Design",
+        name: "Software Engineering",
         description:
-            "Saya dapat membuat mockup untuk tampilan website, mengatur konten website sesuai dengan kategori yang diinginkan, serta menata layout untuk pemasangan banner, link dan kebutuhan lainnya.",
+            "Merancang dan membangun aplikasi yang scalable, maintainable, secure, dan reliable, mulai dari pengembangan fitur hingga deployment.",
     },
     {
-        name: "Front End Developer",
+        name: "Web Development",
         description:
-            "Saya dapat memberikan interface bagi website sehingga tampak menarik terutama pada bagian cross-browser, responsive, UX, dan performance.",
+            "Membangun web application dari sisi front-end hingga back-end dengan fokus pada performance, responsive design, security, dan user experience.",
     },
     {
-        name: "Backend Developer",
+        name: "AI Engineering",
         description:
-            "Saya dapat menulis kode dan merancang aplikasi yang aman, berpartisipasi dalam seluruh fase siklus pengembangan, berfokus pada coding, testing, dan debugging, serta memecahkan masalah dan memperbaiki bug atau kelemahan dalam website dan sistem.",
+            "Mengintegrasikan teknologi AI seperti LLM, RAG, embeddings, vector database, dan AI workflow ke dalam aplikasi untuk menghasilkan solusi yang intelligent.",
+    },
+    {
+        name: "AI Agent",
+        description:
+            "Membangun AI agent yang dapat memahami konteks, menggunakan tools, berinteraksi dengan API dan database, serta menjalankan workflow secara otomatis.",
+    },
+    {
+        name: "System Architecture",
+        description:
+            "Merancang struktur dan arsitektur sistem, database, API, service communication, serta mempertimbangkan scalability, security, dan maintainability.",
+    },
+    {
+        name: "API & Integration",
+        description:
+            "Membangun dan mengintegrasikan REST API, third-party services, authentication, payment gateway, database, serta berbagai layanan eksternal.",
+    },
+    {
+        name: "Cloud & DevOps",
+        description:
+            "Menangani deployment, CI/CD, containerization, cloud infrastructure, monitoring, logging, dan kebutuhan operasional aplikasi.",
     },
 ];

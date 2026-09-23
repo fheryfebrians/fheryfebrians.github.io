@@ -58,7 +58,8 @@ export const PROJECTS = [
         role: "Web Developer",
         stack: "Web Development",
         image: "assets/img/dashboard.JPG",
-        desc: "Sistem SIKK FPEB UPI.",
+        desc: "SIKK FPEB UPI",
+        url: "https://sikk-fpeb.upi.edu/",
     },
 
     {
@@ -179,5 +180,27 @@ export const PROJECTS = [
         stack: "Web Development",
         image: "assets/img/bryannet.png",
         desc: "Website Bryannet.",
+    },
+
+    {
+        slug: "urbanlife.md",
+        title: "Urbanlife",
+        year: "2025",
+        role: "Backend Developer",
+        stack: "Web Development",
+        image: "assets/img/urbanlife.png",
+        desc: "Urbanlife",
+        url: "https://urbanlife.id",
+    },
+
+    {
+        slug: "atscvbuilder.md",
+        title: "ATS CV Builder",
+        year: "2026",
+        role: "Fullstack Developer",
+        stack: "Web Development",
+        image: "assets/img/atscvbuilder.png",
+        desc: "ATS CV Builder",
+        url: "https://atscvbuilder.vercel.app",
     },
 ];

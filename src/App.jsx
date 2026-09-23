@@ -185,11 +185,17 @@ export default function App() {
             case "whoami":
                 push([
                     {
-                        text: `${PROFILE.handle} — ${PROFILE.name}`,
+                        text: `${PROFILE.name}`,
                         variant: "heading",
                     },
                     {
                         text: `role      ${PROFILE.role}`,
+                    },
+                    {
+                        text: `headline  ${PROFILE.headline}`,
+                    },
+                    {
+                        text: `core      ${PROFILE.core.join(" · ")}`,
                     },
                     {
                         text: `location  ${PROFILE.location}`,
@@ -286,19 +292,11 @@ export default function App() {
                         href: PROFILE.linkedin,
                     },
                     {
-                        text: `instagram  ${PROFILE.instagram}`,
-                        href: PROFILE.instagram,
-                    },
-                    {
                         text: `whatsapp   ${PROFILE.whatsapp}`,
                         href: PROFILE.whatsapp,
                     },
                     {
                         text: `lokasi     ${PROFILE.location}`,
-                    },
-                    {
-                        text:
-                            "telepon    081-214-585-744 | 0821-2659-1570",
                     },
                 ]);
 
@@ -398,19 +396,11 @@ export default function App() {
                             href: PROFILE.linkedin,
                         },
                         {
-                            text: `instagram  ${PROFILE.instagram}`,
-                            href: PROFILE.instagram,
-                        },
-                        {
                             text: `whatsapp   ${PROFILE.whatsapp}`,
                             href: PROFILE.whatsapp,
                         },
                         {
                             text: `lokasi     ${PROFILE.location}`,
-                        },
-                        {
-                            text:
-                                "telepon    081-214-585-744 | 0821-2659-1570",
                         },
                     ]);
                 }
