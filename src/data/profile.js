@@ -17,19 +17,19 @@ export const PROFILE = {
     core: [
         "Full-Stack Development",
         "AI Engineering",
-        "AI Agents",
         "System Architecture",
     ],
 
     bio: [
-        "Software Engineer dengan pengalaman lebih dari 5 tahun dalam merancang, mengembangkan, dan mengimplementasikan aplikasi serta sistem berbasis web.",
+        "Software Engineer dengan pengalaman lebih dari 5 tahun dalam merancang, mengembangkan, dan mengimplementasikan aplikasi serta sistem berskala web.",
+        
+        "Memiliki keahlian mendalam dalam full-stack development, system architecture, integrasi API, basis data, infrastruktur cloud, serta pengembangan solusi berbasis Machine Learning dan Artificial Intelligence termasuk Deep Learning, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), dan AI Agents.",
+        
+        "Berpengalaman membangun AI-powered applications dan workflow automation untuk meningkatkan efisiensi serta menjawab kebutuhan bisnis.",
+        
+        "Terbiasa menangani seluruh siklus pengembangan perangkat lunak (SDLC) dari hulu ke hilir, mulai dari system design, pengembangan, optimasi, deployment, hingga maintenance.",
+        
+        "Merupakan profesional yang kolaboratif, cepat beradaptasi dengan teknologi baru, serta berorientasi pada solusi yang scalable, reliable, dan secure",
 
-        "Berpengalaman dalam pengembangan full-stack, system architecture, API integration, database, cloud infrastructure, serta penerapan teknologi AI seperti LLM, RAG, dan AI Agent untuk membangun solusi yang scalable, reliable, secure, dan sesuai dengan kebutuhan bisnis.",
-
-        "Memiliki pengalaman dalam membangun AI-powered applications, AI agent, workflow automation, serta mengintegrasikan berbagai layanan dan sistem untuk meningkatkan efisiensi proses bisnis.",
-
-        "Terbiasa menangani seluruh siklus pengembangan software, mulai dari perancangan arsitektur, development, testing, debugging, optimization, hingga deployment dan maintenance.",
-
-        "Terbiasa bekerja secara kolaboratif, cepat beradaptasi dengan teknologi baru, serta mampu menganalisis dan menyelesaikan berbagai tantangan teknis melalui solusi yang efektif, maintainable, dan berorientasi pada hasil.",
-    ],
+    ]
 };
