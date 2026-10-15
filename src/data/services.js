@@ -1,37 +1,38 @@
+
 export const SERVICES = [
     {
         name: "Software Engineering",
         description:
-            "Merancang dan membangun aplikasi yang scalable, maintainable, secure, dan reliable, mulai dari pengembangan fitur hingga deployment.",
+            "Mengembangkan solusi perangkat lunak sesuai kebutuhan bisnis, mulai dari perancangan fitur dan implementasi hingga pengujian, optimasi, dan maintenance.",
     },
     {
         name: "Web Development",
         description:
-            "Membangun web application dari sisi front-end hingga back-end dengan fokus pada performance, responsive design, security, dan user experience.",
+            "Membangun aplikasi web end-to-end, mulai dari antarmuka yang responsif hingga backend dan pengelolaan data, dengan fokus pada performa dan kemudahan penggunaan.",
     },
     {
         name: "AI Engineering",
         description:
-            "Mengintegrasikan teknologi AI seperti LLM, RAG, embeddings, vector database, dan AI workflow ke dalam aplikasi untuk menghasilkan solusi yang intelligent.",
+            "Mengintegrasikan Large Language Models (LLMs), RAG, embeddings, dan vector search ke dalam aplikasi untuk membantu pencarian informasi, pemrosesan data, dan otomatisasi tugas.",
     },
     {
-        name: "AI Agent",
+        name: "AI Agent Development",
         description:
-            "Membangun AI agent yang dapat memahami konteks, menggunakan tools, berinteraksi dengan API dan database, serta menjalankan workflow secara otomatis.",
+            "Mengembangkan AI agent yang dapat menggunakan tools, memanggil API, mengakses sumber data, dan menjalankan rangkaian tugas berdasarkan instruksi serta konteks yang diberikan.",
     },
     {
         name: "System Architecture",
         description:
-            "Merancang struktur dan arsitektur sistem, database, API, service communication, serta mempertimbangkan scalability, security, dan maintainability.",
+            "Merancang arsitektur aplikasi, struktur database, dan komunikasi antarservice dengan mempertimbangkan kebutuhan bisnis, kompleksitas sistem, serta kemudahan pengembangan jangka panjang.",
     },
     {
-        name: "API & Integration",
+        name: "API & System Integration",
         description:
-            "Membangun dan mengintegrasikan REST API, third-party services, authentication, payment gateway, database, serta berbagai layanan eksternal.",
+            "Membangun REST API dan menghubungkan aplikasi dengan layanan pihak ketiga, sistem internal, authentication provider, serta payment gateway sesuai kebutuhan proyek.",
     },
     {
         name: "Cloud & DevOps",
         description:
-            "Menangani deployment, CI/CD, containerization, cloud infrastructure, monitoring, logging, dan kebutuhan operasional aplikasi.",
+            "Menyiapkan deployment aplikasi, Docker, CI/CD, dan konfigurasi server untuk mendukung proses rilis yang konsisten serta operasional aplikasi yang lebih mudah dikelola.",
     },
 ];

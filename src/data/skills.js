@@ -1,131 +1,80 @@
+
 export const SKILLS = [
     {
-        group: "bahasa",
+        group: "languages",
         items: [
+            "Python",
             "JavaScript",
             "TypeScript",
-            "Python",
-            "PHP",
             "Go",
+            "PHP",
         ],
     },
-
     {
         group: "frontend",
         items: [
             "React",
             "Next.js",
-            "HTML",
-            "CSS",
             "Tailwind CSS",
         ],
     },
-
     {
         group: "backend",
         items: [
             "Node.js",
-            "NestJS",
             "Express.js",
+            "NestJS",
             "Laravel",
             "CodeIgniter",
-            "Go Gin",
             "FastAPI",
         ],
     },
-
     {
-        group: "ai_engineering",
+        group: "ai_and_machine_learning",
         items: [
-            "LLM",
-            "RAG",
-            "Prompt Engineering",
-            "AI Integration",
-            "Embeddings",
-            "Vector Database",
-            "AI Workflow",
-        ],
-    },
-
-    {
-        group: "ai_agent",
-        items: [
-            "AI Agents",
-            "Tool Calling",
-            "Function Calling",
-            "Agent Workflow",
-            "Multi-Agent Systems",
+            "Natural Language Processing (NLP)",
+            "Machine Learning",
+            "Deep Learning",
+            "Retrieval-Augmented Generation (RAG)",
             "LLM Orchestration",
+            "NumPy",
+            "Pandas",
+            "Scikit-learn",
+            "PyTorch",
         ],
     },
-
     {
-        group: "basis_data",
+        group: "databases",
         items: [
             "MySQL",
             "PostgreSQL",
             "Redis",
-            "MongoDB",
         ],
     },
-
     {
-        group: "vector_database",
+        group: "architecture_and_integration",
         items: [
-            "Qdrant",
-            "Pinecone",
-            "pgvector",
-        ],
-    },
-
-    {
-        group: "api_integration",
-        items: [
+            "System Architecture",
+            "Microservices",
             "REST API",
-            "GraphQL",
             "WebSocket",
-            "OAuth",
-            "JWT",
-            "Postman",
         ],
     },
-
     {
-        group: "message_queue",
+        group: "messaging",
         items: [
             "Apache Kafka",
             "RabbitMQ",
         ],
     },
-
     {
         group: "devops",
         items: [
-            "Git",
             "Docker",
-            "CI/CD",
             "Linux",
             "Nginx",
-            "Apache",
-        ],
-    },
-
-    {
-        group: "cloud",
-        items: [
-            "AWS",
-            "Google Cloud",
-            "Azure",
-        ],
-    },
-
-    {
-        group: "tools",
-        items: [
-            "GitHub",
-            "GitLab",
-            "Postman",
-            "Ngrok",
+            "CI/CD",
+            "MLOps",
         ],
     },
 ];
